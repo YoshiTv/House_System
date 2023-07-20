@@ -1,0 +1,22 @@
+-- INSERIRE IN ox_invnetory/data/items.lua 
+
+['casapopolare'] = {
+	label = 'Chiavi Casa Popolare',
+},
+
+['casamoderna'] = {
+	label = 'Chiavi Casa Moderna',
+},
+
+
+-- INSERIRE IN ox_invnetory/data/shops.lua 
+
+CasePopolari = {
+	name = 'Frigo',
+	inventory = {
+		{ name = 'burger', price = 100 },
+		{ name = 'pizza', price = 150 },
+		{ name = 'water', price = 50 },
+		{ name = 'cola', price = 80 },
+	},
+},
